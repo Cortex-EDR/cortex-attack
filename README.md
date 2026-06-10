@@ -11,13 +11,11 @@
   <a href="https://github.com/Cortex-EDR">GitHub</a>
 </p>
 
-<div align="center">
 [![NPM Version](https://img.shields.io/npm/v/cortex-attack.svg?style=flat-square&color=9D4EDD)](https://www.npmjs.com/package/cortex-attack)
 [![Node Version](https://img.shields.io/node/v/cortex-attack.svg?style=flat-square&color=00F5D4)](https://nodejs.org)
 [![License](https://img.shields.io/github/license/Cortex-EDR/cortex-attack.svg?style=flat-square&color=06D6A0)](LICENSE)
 [![Docker Support](https://img.shields.io/badge/docker-fallback-blue?style=flat-square&logo=docker)](https://www.docker.com)
 [![Ollama Support](https://img.shields.io/badge/ai-ollama%20%7C%20openai%20%7C%20anthropic-ff6b35?style=flat-square)](https://ollama.com)
-</div>
 
 Cortex Attack is a terminal-native, open-source security intelligence and attack orchestration engine built for developers. It automatically scans your local applications, identifies security configuration issues, maps multi-hop attack graphs, and writes code-level remediation patches using local or cloud-based artificial intelligence.
 
