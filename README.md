@@ -328,6 +328,14 @@ npm run dev -- attack localhost:3000
 * Target Audience: Software Engineers and Security Professionals
 * Project Scope: Passive recon, static analysis, threat path generation
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/Cortex-EDR/cortex-attack?style=flat&color=A855F7" alt="License">
+  <img src="https://img.shields.io/github/stars/Cortex-EDR/cortex-attack?style=flat&color=A855F7" alt="Stars">
+  <img src="https://img.shields.io/github/languages/top/Cortex-EDR/cortex-attack?style=flat&color=A855F7" alt="Top Language">
+  <img src="https://img.shields.io/badge/Architecture-Modular%20Monolith-blue?style=flat&color=0EA5E9" alt="Architecture">
+  <img src="https://img.shields.io/badge/Security-AI%20Audited-success?style=flat&color=10B981" alt="Security">
+</p>
+
 ---
 
 Distributed under the MIT License. See `LICENSE` for details.
