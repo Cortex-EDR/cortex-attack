@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100" />
   <br />
-  <samp><h1>Cortex Attack</h1></samp>
+  <samp><h1 align="center">Cortex Attack</h1></samp>
 </p>
 
 <p align="center" style="color: #8f8f8f">
