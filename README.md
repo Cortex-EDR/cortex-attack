@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="400"/>
+  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="200"/>
 </p>
 
 <p align="center" style="color: #8f8f8f">
@@ -21,10 +21,7 @@ Cortex Attack is a terminal-native, open-source security intelligence and attack
 
 Featuring a zero-configuration architecture, Cortex Attack coordinates industry-standard scanners on your host. If a scanning tool is missing from your system, Cortex Attack transparently routes execution through an ephemeral Docker fallback environment.
 
-<img src="assets/graph1.png" alt="Execution Pipeline" width="100%"/>
-<img src="assets/graph2.png" alt="Execution Pipeline" width="100%"/>
-<img src="assets/graph3.png" alt="Execution Pipeline" width="100%"/>
->
+<img src="assets/cortex ascii.png" alt="Cortex Attack Flow" width="100%"/>
 
 ---
 
@@ -265,8 +262,15 @@ Cortex Attack matches different scanning tools and AI platforms depending on the
 ### Visualizers and Reports
 
 Interactive visualizers comparing models and capabilities are available in the repository. Open them in a web browser to review findings, chart measurements, and performance logs:
-* [Cortex Capabilities Visualizer](assets/cortex_capabilities_visual.html)
-* [Cortex Model Comparison Radar](assets/cortex_model_comparison.html)
+
+#### Scanner Capabilities and Coverage
+
+<img src="assets/graph1.png" alt="Execution Pipeline" width="100%"/>
+<img src="assets/graph2.png" alt="Execution Pipeline" width="100%"/>
+
+#### AI Provider Comparison
+
+<img src="assets/graph3.png" alt="Execution Pipeline" width="100%"/>
 
 ### Scan Phase Performance and Coverage
 
