@@ -1,7 +1,7 @@
-<p align="center">
+<div style="display: flex; align-items: center; gap: 10px;">
   <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100"/>
   <h1>Cortex Attack</h1>
-</p>
+</div>
 
 <p align="center" style="color: #8f8f8f">
   <a href="https://cortex-edr.com">Website</a> •
