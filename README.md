@@ -1,8 +1,7 @@
 <p align="center">
   <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100"/>
+  <h1>Cortex Attack</h1>
 </p>
-
-# Cortex Attack
 
 <p align="center" style="color: #8f8f8f">
   <a href="https://cortex-edr.com">Website</a> •
