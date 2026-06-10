@@ -10,7 +10,7 @@ const execFileAsync = promisify(execFile);
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const DOCKER_IMAGE_REGISTRY = 'ghcr.io/upvista/cortex-engine';
+const DOCKER_IMAGE_REGISTRY = 'ghcr.io/cortex-edr/cortex-attack';
 const DOCKER_IMAGE_LOCAL = 'cortex-engine';
 
 // ─── Tool availability ────────────────────────────────────────────────────────
