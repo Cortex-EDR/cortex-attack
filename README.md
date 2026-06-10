@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100" align="middle" style="display: inline-block; vertical-align: middle; margin-right: 10px;">
-  <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Cortex Attack</span>
+  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100" />
+  <br />
+  <samp><h1>Cortex Attack</h1></samp>
 </p>
 
 <p align="center" style="color: #8f8f8f">
