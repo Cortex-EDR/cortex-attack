@@ -1,0 +1,66 @@
+version: 2
+
+updates:
+  # ── npm dependencies ────────────────────────────────────────────────────
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Karachi
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - automated
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      # Group all patch/minor updates together to reduce noise
+      minor-and-patch:
+        update-types:
+          - minor
+          - patch
+    ignore:
+      # These packages use ESM-only in newer versions — upgrade manually
+      - dependency-name: chalk
+        update-types: [version-update:semver-major]
+      - dependency-name: ora
+        update-types: [version-update:semver-major]
+      - dependency-name: boxen
+        update-types: [version-update:semver-major]
+
+  # ── GitHub Actions ───────────────────────────────────────────────────────
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Karachi
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - github-actions
+      - automated
+    commit-message:
+      prefix: chore
+      include: scope
+
+  # ── Docker base image ────────────────────────────────────────────────────
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Karachi
+    open-pull-requests-limit: 3
+    labels:
+      - dependencies
+      - docker
+      - automated
+    commit-message:
+      prefix: chore
+      include: scope
