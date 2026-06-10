@@ -21,7 +21,10 @@ Cortex Attack is a terminal-native, open-source security intelligence and attack
 
 Featuring a zero-configuration architecture, Cortex Attack coordinates industry-standard scanners on your host. If a scanning tool is missing from your system, Cortex Attack transparently routes execution through an ephemeral Docker fallback environment.
 
-<img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="400"/>
+<img src="assets/graph1.png" alt="Execution Pipeline" width="100%"/>
+<img src="assets/graph2.png" alt="Execution Pipeline" width="100%"/>
+<img src="assets/graph3.png" alt="Execution Pipeline" width="100%"/>
+>
 
 ---
 
