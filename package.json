@@ -32,7 +32,7 @@
         "dotenv": "^16.4.5",
         "inquirer": "^10.1.8",
         "cli-table3": "^0.6.5",
-        "which": "^4.0.0"
+        "which": "^7.0.0"
     },
     "devDependencies": {
         "typescript": "^5.5.3",
