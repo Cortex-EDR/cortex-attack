@@ -56,9 +56,9 @@ jobs:
         uses: trufflesecurity/trufflehog@main
         with:
           path: ./
-          base: ${{ github.event.repository.default_branch }}
-          head: HEAD
-          extra_args: --debug --only-verified
+          # Scan the full git log rather than a diff range — avoids the
+          # "BASE and HEAD commits are the same" failure on merge pushes
+          extra_args: --only-verified
 
   # ─── Dependency Vulnerability Scan (Trivy) ────────────────────────────────
   trivy-deps:
