@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="200"/>
+  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100"/>
 </p>
+
+# Cortex Attack
 
 <p align="center" style="color: #8f8f8f">
   <a href="https://cortex-edr.com">Website</a> •
@@ -8,8 +10,6 @@
   <a href="https://instagram.com/cortex_edr">Instagram</a> •
   <a href="https://github.com/Cortex-EDR">GitHub</a>
 </p>
-
-# Cortex Attack
 
 [![NPM Version](https://img.shields.io/npm/v/cortex-attack.svg?style=flat-square&color=9D4EDD)](https://www.npmjs.com/package/cortex-attack)
 [![Node Version](https://img.shields.io/node/v/cortex-attack.svg?style=flat-square&color=00F5D4)](https://nodejs.org)
@@ -21,7 +21,7 @@ Cortex Attack is a terminal-native, open-source security intelligence and attack
 
 Featuring a zero-configuration architecture, Cortex Attack coordinates industry-standard scanners on your host. If a scanning tool is missing from your system, Cortex Attack transparently routes execution through an ephemeral Docker fallback environment.
 
-<img src="assets/cortex ascii.png" alt="Cortex Attack Flow" width="100%"/>
+<img src="assets/cortex ascii.png" alt="Cortex Attack Flow" width="600"/>
 
 ---
 
