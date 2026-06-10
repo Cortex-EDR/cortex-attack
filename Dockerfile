@@ -4,7 +4,7 @@
 # Usage:  docker run --rm cortex-engine nmap -sV localhost
 # ──────────────────────────────────────────────────────────────────────────────
 
-FROM alpine:3.20
+FROM alpine:3.24
 
 # ── System packages ──────────────────────────────────────────────────────────
 # bash      – default shell / entrypoint
