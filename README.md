@@ -1,8 +1,6 @@
 <p align="center">
-<div style="display: flex; align-items: center; gap: 10px;">
-  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100"/>
-  <h1>Cortex Attack</h1>
-</div>
+  <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="100" align="middle" style="display: inline-block; vertical-align: middle; margin-right: 10px;">
+  <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Cortex Attack</span>
 </p>
 
 <p align="center" style="color: #8f8f8f">
