@@ -2,7 +2,7 @@
   <img src="assets/cortex logo-dark.png" alt="Cortex Attack Logo" width="400"/>
 </p>
 
-<p align="center">
+<p align="center" style="color: #8f8f8f">
   <a href="https://cortex-edr.com">Website</a> •
   <a href="https://linkedin.com/company/cortex-edr">LinkedIn</a> •
   <a href="https://instagram.com/cortex_edr">Instagram</a> •
@@ -70,11 +70,12 @@ flowchart TD
         P4 --> P5[5. Code & Dependency Audit]
         P5 --> P6[6. Findings Consolidation]
         P6 --> P7[7. AI Attack Graph & Narrative]
-    end
     
     P7 --> LLM[AI Provider: Ollama / OpenAI / Anthropic]
     LLM --> Artifacts[Saved to configured output directory]
     Artifacts --> Output[Interactive Console / Markdown Report]
+    
+    end
 ```
 
 ---
