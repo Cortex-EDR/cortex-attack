@@ -36,7 +36,7 @@
     },
     "devDependencies": {
         "typescript": "^5.5.3",
-        "@types/node": "^20.14.10",
+        "@types/node": "^26.1.1",
         "@types/figlet": "^1.5.8",
         "@types/fs-extra": "^11.0.4",
         "@types/uuid": "^10.0.0",
