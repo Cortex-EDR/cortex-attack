@@ -13,7 +13,6 @@
 
 [![NPM Version](https://img.shields.io/npm/v/cortex-attack.svg?style=flat-square&color=9D4EDD)](https://www.npmjs.com/package/cortex-attack)
 [![Node Version](https://img.shields.io/node/v/cortex-attack.svg?style=flat-square&color=00F5D4)](https://nodejs.org)
-[![License](https://img.shields.io/github/license/Cortex-EDR/cortex-attack.svg?style=flat-square&color=06D6A0)](LICENSE)
 [![Docker Support](https://img.shields.io/badge/docker-fallback-blue?style=flat-square&logo=docker)](https://www.docker.com)
 [![Ollama Support](https://img.shields.io/badge/ai-ollama%20%7C%20openai%20%7C%20anthropic-ff6b35?style=flat-square)](https://ollama.com)
 
@@ -37,7 +36,7 @@ Cortex Attack secures applications by converting disorganized vulnerability warn
 
 ---
 
-## Key Features
+## Features
 
 * Zero-configuration fallback: Automatically executes scanners natively on your host. If they are absent, it routes their execution inside the cortex-engine container.
 * Multi-engine support: Harnesses the combined capabilities of nmap, nikto, semgrep, trivy, whatweb, and curl.
@@ -142,7 +141,7 @@ If you do not want to install individual security tools locally, you can use the
 
 ---
 
-## Quick Start
+## Start
 
 ### 1. Check your Environment
 ```bash
